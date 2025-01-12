@@ -4,3 +4,4 @@ env
 
 # Misc
 *.swp
+node_modules/
