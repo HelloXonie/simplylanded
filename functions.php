@@ -8,8 +8,10 @@ function load_css()
 	false, 'all');
 	wp_enqueue_style('bootstrap');
 	
-
-
+	
+	wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(),
+	false, 'all');
+	wp_enqueue_style('main');
 
 }
 
