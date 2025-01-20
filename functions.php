@@ -34,3 +34,17 @@ add_action('wp_enqueue_scripts', 'load_js');
 //Theme Options
 
 add_theme_support('menus');
+
+
+
+
+//Menus
+register_nav_menus(
+	array(
+	
+		'main-menu' => 'Main Menu Location',
+		'mobile-menu' => 'Mobile Menu Location',
+	
+	)
+
+);
