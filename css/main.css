@@ -8,3 +8,9 @@ header {
 .page-wrap {
 	padding:2rem 0;
 }
+
+header .top-menu {
+	list-style-type:none;
+
+}
+
